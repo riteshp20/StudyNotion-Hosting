@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"*",
+		origin:"https://studynotion-frontend-theta.vercel.app",
 		credentials:true,
 	})
 )
